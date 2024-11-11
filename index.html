@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet".integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <title>Meu portfólio</title>
 </head>
@@ -33,7 +34,7 @@
             <div class="card-body">
               <h5 class="card-title">Site Inovador</h5>
               <p class="card-text">Este site possui diversas funcionalidades diferentes e inovadoras.</p>
-              <button type="button" class="btn btn-link">Veja o botão</button>
+              <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1"></button>>Veja o botão</button>
             </div>
           </div>
         </div>
@@ -44,7 +45,7 @@
               <div class="card-body">
                 <h5 class="card-title">Projeto para segurança dados</h5>
                 <p class="card-text">Esse projeto foi realizado com o intuito de ser grátis e servir como uma segurança simples porém eficiente para empresas no começo.</p>
-                <button type="button" class="btn btn-link">Veja o projeto</button>
+                <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2"></button>>Veja o projeto</button>
               </div>
             </div>
         </div>
@@ -55,20 +56,76 @@
                 <div class="card-body">
                   <h5 class="card-title">Jogo simples fácil de ser criado</h5>
                   <p class="card-text">Este jogo é facil de ser feito, pois utiliza uma linguagem simples e de rápido aprendizado.</p>
-                  <button type="button" class="btn btn-link">Veja o projeto</button>
+                  <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3"></button>>Veja o projeto</button>
                 </div>
               </div>
           </div>
     </div>
 </main>
+<!-- Modal 1-->
+<div class="modal" id="modal1" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Mais informações</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Projeto que podem te ajudar em alguma situação onde se tem pouco tempo e quer algo prático e eficiente.</p>
+        </div>
+        <div class="modal-footer">
+        <a href="">Ver projeto ao vivo</a>
+        <a href="">Ver codigo do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!--Modal 2-->
+  <div class="modal" id="modal2" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Mais informações</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Projeto que podem te ajudar em alguma situação onde se tem pouco tempo e quer algo prático e eficiente.</p>
+        </div>
+        <div class="modal-footer">
+        <a href="">Ver projeto ao vivo</a>
+        <a href="">Ver codigo do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
     <footer class="container py-5">
         <h2>Entre em Contato</h2>
         <div>
+            <i class="bi bi-github"></i>
             <a href="https://github.com/PedroSF1">GitHub</a>
         </div>
-        <p>Copyright 2024. Produzido por Pedro Fulador</p>
+        <p class="my-5 text-center">Copyright 2024. Produzido por Pedro Fulador</p>
     </footer>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Mais informações</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Projeto que podem te ajudar em alguma situação onde se tem pouco tempo e quer algo prático e eficiente.</p>
+            </div>
+            <div class="modal-footer">
+            <a href="">Ver projeto ao vivo</a>
+            <a href="">Ver codigo do projeto</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
