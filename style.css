@@ -17,12 +17,12 @@ h1,h2,h5 {
     font-weight: 700;
 }
 
-.Lead, .btn-link {
-    color: var(--cor-secundaria);
+.lead, .btn-link {
+    color: var(--cor-destaque);
     font-weight: 700;
 }
 
-footer a, .btn-link:hover {
+a:hover {
     color: var(--cor-principal);
 }
 
